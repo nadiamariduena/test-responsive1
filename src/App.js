@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <div id="scroll">
+          <div id="wrapper-app">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />

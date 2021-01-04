@@ -1,72 +1,16 @@
-## ALL RESPONSIVE
-
-- I need to ask my teacher if this media query is correct, as i have test it and everything looks fine
-
-[CSS Units: vh, vw, vmin, vmax](https://youtu.be/IWFqGsXxJ1E)
-
-<br>
-
-```scss
-// PHONE Portrait & Landscape
-@media screen and(min-width: 320px) and(max-width:480px) {
-}
-// ---------------
-// PHONE Portrait
-@media screen and(min-width: 320px) {
-}
-// ---------------
-// PHONE Landscape
-@media screen and(max-width: 480px) {
-}
-/*
-
-
-
-only problem here , what happens in between as the max is set to 480 and the min width of the tablet is 768px..where goes the 500 and 600
-
-
-
-*/
-// ---------------
-// ---------------
-//
-// TABLET Portrait & Landscape
-@media screen and(min-width: 768px) and(max-width:1024px) {
-}
-
-// ---------------
-// TABLET Portrait
-@media screen and(min-width: 768px) {
-}
-// ---------------
-// TABLET Landscape
-@media screen and(min-width:1024px) {
-}
-
-// ---------------
-// ---------------
-// Desktop
-@media screen and(min-width:1224px) {
-}
-// ---------------
-// LARGE Desktop
-@media screen and(min-width:1824px) {
-}
-```
-
-<br>
-<br>
-<hr>
-<br>
+# RESPONSIVE 🏜️
 
 ### FONT SIZE ☁️
 
 ##### USE VW for headlines but not for paragraphs
+
 ##### USE VH for paragraph (not bad but is much better than the vw, as it will not decrease the font until you cannot see anything)
+
+[<img src="/src/img/respons-fontsize.gif"/>]()
 
 - I DECIDED to test vw on the font-size, I still dont know if it s the right approach but I like how smooth the text scale depending on the viewport, only bad thing is the compatibility.
 
-[<img src="/src/img/respons-fontsize.gif"/>]()
+[<img src="/src/img/coverting-pxtovw.png"/>](https://khaledkzy.github.io/pixel-vh-vw-converter/)
 
 #### vw, vh and vmin 👾
 
@@ -125,3 +69,64 @@ _Extrait article from:_
 <br>
 <hr>
 <br>
+
+# MEDIA QUERIES
+
+- I need to ask my teacher if this media query is correct, as i have test it and everything looks fine
+
+[CSS Units: vh, vw, vmin, vmax](https://youtu.be/IWFqGsXxJ1E)
+
+<br>
+
+```scss
+// PHONE Portrait & Landscape
+@media screen and(min-width: 320px) and(max-width:480px) {
+}
+// ---------------
+// PHONE Portrait
+@media screen and(min-width: 320px) {
+}
+// ---------------
+// PHONE Landscape
+@media screen and(max-width: 480px) {
+}
+/*
+
+                        ****
+
+only problem here , what happens in between as the max is set to 480 and the min width of the tablet is 768px..where goes the 500 and 600?
+
+Maybe there should be a main for each page, a bit like i used to do in the beginning, i will surely test it.
+
+
+                        ****
+
+*/
+// ---------------
+// ---------------
+//
+// TABLET Portrait & Landscape
+@media screen and(min-width: 768px) and(max-width:1024px) {
+}
+
+// ---------------
+// TABLET Portrait
+@media screen and(min-width: 768px) {
+}
+// ---------------
+// TABLET Landscape
+@media screen and(min-width:1024px) {
+}
+
+// ---------------
+// ---------------
+// Desktop
+@media screen and(min-width:1224px) {
+}
+// ---------------
+// LARGE Desktop
+@media screen and(min-width:1824px) {
+}
+```
+
+[<img src="/src/img/preview-respo1.gif"/>]()

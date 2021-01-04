@@ -24,11 +24,11 @@ body {
 }
 
 .App {
-  #scroll {
+  #wrapper-app {
     width: 100vw;
     height: auto;
     padding: 0 0 0 0;
-    background-color: #435a4d;
+    background-color: #0d9b4b;
     // background-color: #cc4a27;
     transition: transform 0.25s;
     /* will keep a tracker so it runs really quickly */
