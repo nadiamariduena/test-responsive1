@@ -19,7 +19,7 @@
   }
 
   .container-quote {
-    padding: 5em 3em;
+    padding: 5em 1.5em;
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -36,7 +36,7 @@
       padding: 1em 1em;
 
       .img-container {
-        width: 80%;
+        width: 90%;
 
         img {
           width: 100%;
@@ -47,6 +47,7 @@
     }
     //
     h2 {
+      padding: 1vw;
       text-align: center;
       font-size: 10vw;
 
@@ -54,6 +55,11 @@
         -webkit-text-stroke: 1px rgb(255, 255, 255);
         -webkit-text-fill-color: transparent;
       }
+    }
+    // ----
+    p {
+      padding: 2vw;
+      font-size: 2.6vh;
     }
   }
 }
@@ -91,10 +97,39 @@
 
 // ---------------
 // ---------------
-// Desktop
+// Desktop  ***********
 @media screen and(min-width:1224px) {
   .box1 {
     background-color: rgb(8, 177, 255);
+  }
+
+  .container-quote {
+    padding: 5em 5em;
+
+    .quote {
+      background-color: rgb(104, 104, 71);
+      padding: 1em 1em;
+
+      .img-container {
+        width: 80%;
+      }
+    }
+    //
+    h2 {
+      padding: 1vw;
+      text-align: center;
+      font-size: 10vw;
+
+      .outline {
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    // ----
+    p {
+      padding: 2vw;
+      font-size: 2.6vh;
+    }
   }
 }
 // ---------------

@@ -24,6 +24,14 @@ function Home() {
                 <h2>
                   TEXT <span className="outline">TEXT</span>
                 </h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea
+                  neque, maiores possimus explicabo, accusamus itaque asperiores
+                  magni inventore ad consectetur, qui nobis. Alias atque minima
+                  fugit commodi nihil. Perferendis eum pariatur mollitia. Magnam
+                  temporibus, rem nemo, ipsam non earum harum, labore totam ut
+                  obcaecati est reiciendis et incidunt quam cupiditate?
+                </p>
               </div>
             </div>
           );

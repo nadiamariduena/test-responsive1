@@ -61,6 +61,9 @@ only problem here , what happens in between as the max is set to 480 and the min
 
 ### FONT SIZE ☁️
 
+##### USE VW for headlines but not for paragraphs
+##### USE VH for paragraph (not bad but is much better than the vw, as it will not decrease the font until you cannot see anything)
+
 - I DECIDED to test vw on the font-size, I still dont know if it s the right approach but I like how smooth the text scale depending on the viewport, only bad thing is the compatibility.
 
 [<img src="/src/img/respons-fontsize.gif"/>]()
