@@ -1,3 +1,7 @@
+@import "navigation";
+@import "about";
+@import "home";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +9,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@import "navigation";
-@import "about";
-@import "home";
+:root {
+  font-size: 16px;
+}
 
 html,
 body {

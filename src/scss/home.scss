@@ -19,7 +19,7 @@
   }
 
   .container-quote {
-    padding: 5em 7.5em;
+    padding: 5em 3em;
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -33,6 +33,7 @@
       align-items: center;
       flex-direction: column;
       background-color: rgb(104, 104, 71);
+      padding: 1em 1em;
 
       .img-container {
         width: 80%;
@@ -48,7 +49,6 @@
     h2 {
       text-align: center;
       font-size: 10vw;
-      margin: 40px auto;
 
       .outline {
         -webkit-text-stroke: 1px rgb(255, 255, 255);

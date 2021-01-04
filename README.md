@@ -1,5 +1,59 @@
 ## ALL RESPONSIVE
 
+- I need to ask my teacher if this media query is correct, as i have test it and everything looks fine
+
+[CSS Units: vh, vw, vmin, vmax](https://youtu.be/IWFqGsXxJ1E)
+
+<br>
+
+```scss
+// PHONE Portrait & Landscape
+@media screen and(min-width: 320px) and(max-width:480px) {
+}
+// ---------------
+// PHONE Portrait
+@media screen and(min-width: 320px) {
+}
+// ---------------
+// PHONE Landscape
+@media screen and(max-width: 480px) {
+}
+/*
+
+
+
+only problem here , what happens in between as the max is set to 480 and the min width of the tablet is 768px..where goes the 500 and 600
+
+
+
+*/
+// ---------------
+// ---------------
+//
+// TABLET Portrait & Landscape
+@media screen and(min-width: 768px) and(max-width:1024px) {
+}
+
+// ---------------
+// TABLET Portrait
+@media screen and(min-width: 768px) {
+}
+// ---------------
+// TABLET Landscape
+@media screen and(min-width:1024px) {
+}
+
+// ---------------
+// ---------------
+// Desktop
+@media screen and(min-width:1224px) {
+}
+// ---------------
+// LARGE Desktop
+@media screen and(min-width:1824px) {
+}
+```
+
 <br>
 <br>
 <hr>
@@ -7,11 +61,15 @@
 
 ### FONT SIZE ☁️
 
-- I DECIDED to test vw on the font-size
+- I DECIDED to test vw on the font-size, I still dont know if it s the right approach but I like how smooth the text scale depending on the viewport, only bad thing is the compatibility.
 
 [<img src="/src/img/respons-fontsize.gif"/>]()
 
-#### vw, vh and vmin
+#### vw, vh and vmin 👾
+
+_Extrait article from:_
+
+[The New CSS3 Relative Font Sizing Units](https://www.sitepoint.com/new-css3-relative-font-size/)
 
 -These new properties allow you to scale font sizes according to the viewport dimensions, i.e.
 
@@ -47,7 +105,18 @@
 
 <br>
 
-[The New CSS3 Relative Font Sizing Units](https://www.sitepoint.com/new-css3-relative-font-size/)
+#### Viewport Sized Typography 👾
+
+_Extrait article from:_
+
+[Viewport Sized Typography](https://css-tricks.com/viewport-sized-typography/)
+
+<br>
+<br>
+
+### COMPATIBILITY
+
+[<img src="/src/img/viewport.compa.jpg"/>]()
 
 <br>
 <br>
