@@ -12,20 +12,16 @@ function Home() {
         <h1>Home</h1>
       </div>
       <>
-        {images.map((image) => (
-          <>
-            <div key={image.id} className="img-container">
-              <img
-                src={image.img1}
-                className="img-box-portfolio"
-                alt="images"
-              />
+        {images.map((image, index) => {
+          return (
+            <div className="quote" key={image.id}>
+              <img src={image.img1} className="img-container" alt={image.alt} />
+              <h2>
+                TEXT <span className="outline">TEXT</span>
+              </h2>
             </div>
-            <h2>
-              TEXT <span className="outline">TEXT</span>
-            </h2>
-          </>
-        ))}
+          );
+        })}
       </>
     </React.Fragment>
   );
