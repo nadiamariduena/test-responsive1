@@ -14,11 +14,17 @@ function Home() {
       <>
         {images.map((image, index) => {
           return (
-            <div className="quote" key={image.id}>
-              <img src={image.img1} className="img-container" alt={image.alt} />
-              <h2>
-                TEXT <span className="outline">TEXT</span>
-              </h2>
+            <div className="container-quote" key={image.id}>
+              <div className="quote">
+                <img
+                  className="img-container"
+                  src={image.img1}
+                  alt={image.alt}
+                />
+                <h2>
+                  TEXT <span className="outline">TEXT</span>
+                </h2>
+              </div>
             </div>
           );
         })}

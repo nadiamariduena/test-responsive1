@@ -17,6 +17,45 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(177, 85, 49);
   }
+
+  .container-quote {
+    padding: 5em 7.5em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    // the auto fit will make it adaptable to the device.
+    // the minmax means that the box will always keep that size, unless i change it.
+    // if you dont add the fraction, leaving alone the 250px, the box will occupy the 100% width, but using the fraction will put it in 2 rows.
+    background-color: rgb(10, 10, 10);
+    .quote {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgb(104, 104, 71);
+
+      .img-container {
+        width: 80%;
+
+        img {
+          width: 100%;
+          min-height: auto;
+          object-fit: cover;
+        }
+      }
+    }
+    //
+    h2 {
+      text-align: center;
+      font-size: 10vw;
+      margin: 40px auto;
+
+      .outline {
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
 }
 // ---------------
 // PHONE Landscape
